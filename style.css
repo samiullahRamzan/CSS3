@@ -13,13 +13,13 @@ body{
 } */
 
 /* for beneficial */
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
-.heading{
+/* .heading{
     color:red;
 }
 
@@ -30,4 +30,44 @@ body{
 
 button{
     color:green
+}
+
+p{
+    text-align: left;
+    text-decoration: underline;
+    text-transform:lowercase;
+}
+
+.mydiv{
+    width:100px;
+    height:100px;
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 10px;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+#navbar{
+    height:60px;
+    background-color: #0f1111;
+}
+
+button{
+    background-color: #f08804;
+}
+
+#logo{
+    color:#f08804;
+    font-size: 25px;
+}
+
+a{
+    margin-right: 180px;
+    text-decoration: none;
 }
