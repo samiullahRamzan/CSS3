@@ -1,0 +1,33 @@
+/* h1{
+    color:red;
+}
+
+
+p{
+    color:green
+}
+
+body{
+
+    background-color:#ffff00 ; 
+} */
+
+/* for beneficial */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    color:red;
+}
+
+#box {
+    color:blue;
+}
+
+
+button{
+    color:green
+}
