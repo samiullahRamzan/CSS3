@@ -1,0 +1,10 @@
+div{
+    height:100px;
+    width:100px;
+    background-image: url('/Level3/cat.jpg');
+    background-size: cover;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    top:50px
+}
