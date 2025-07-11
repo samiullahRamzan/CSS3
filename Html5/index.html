@@ -33,13 +33,43 @@
     <form action="/sami.com" method="post">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
+        <br>
+        <br>
         
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
+        <br>
+        <br>
         
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required>
+        <br>
+        <br>
         
+        <label for="class11">
+            <input type="checkbox" name="class" value="class 11" id="class11"> Class 11
+        </label>
+        <label for="class12">
+            <input type="checkbox" name="class" value="class 12" id="class12"> Class 12
+        </label>
+        <br>
+        <br>
+        
+        <textarea name="message" id="first_message" placeholder="Enter your text here" rows="5" ></textarea>
+        <br>
+        <br>
+
+        <select name="city" id="city">
+            <option value="Lahore">Lahore</option>
+            <option value="Islamabad">Islamabad</option>
+            <option value="Peshawar">Peshawar</option>
+            <option value="Kashmir">Kashmir</option>
+        </select>
+        <br>
+        <br>
+
+        <button type="submit">Submit</button> 
+
     </form>
 </body>
 </html>
